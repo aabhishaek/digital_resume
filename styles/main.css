@@ -86,21 +86,26 @@ li {
 .socials {
     display: flex;
     justify-content: flex-start;
-    column-gap: 1em;
+    column-gap: 4em;
     flex-wrap: wrap;
 }
 
-.socials a {
-    font-weight: 300;
-    color: var(--secondaryTextColor);
-    font-size: 0.9em;
-    transition: 0.3s;
+.socials img {
+    height: 30px;
+    width: 30px;
+    transition: 0.5s;
 }
 
-.socials a:hover {
-    font-weight: 100;
-    color: var(--mainLinkColor);
-    font-size: 0.9em;
+.invert {
+    filter: invert(1);
+}
+
+.socials img:hover {
+    transform: scale(1.2);
+}
+
+.qualifications {
+    list-style: none;
 }
 
 .tech-stack-items {
@@ -130,7 +135,16 @@ li {
 .certifications-card {
     padding: 1em 0;
     border-top: 1px solid var(--mainBorderColor);
-    font-size: 1em;
+}
+
+.certifications-card img {
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.certifications-card img:hover {
+    transform: scale(0.9);
 }
 
 @media(max-width: 600px) {
