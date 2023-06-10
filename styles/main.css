@@ -127,6 +127,10 @@ li {
     padding-left: 2em;
 }
 
+.work-history-card li {
+    margin: 1em 0;
+}
+
 .line-break {
     background-color: var(--mainBorderColor);
     height: 1px;
