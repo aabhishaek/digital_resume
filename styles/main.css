@@ -79,7 +79,7 @@ li {
     border-radius: 10%;
 }
 
-.email {
+.email a {
     color: var(--mainTextColor);
 }
 
@@ -125,6 +125,10 @@ li {
     border-left: 1px solid var(--mainBorderColor);
     margin: 3em 0;
     padding-left: 2em;
+}
+
+.work-history-card li {
+    margin: 1em 0;
 }
 
 .line-break {
