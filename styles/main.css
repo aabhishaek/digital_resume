@@ -47,7 +47,7 @@ li {
 }
 
 .container {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 1em;
 }
@@ -106,6 +106,7 @@ li {
 
 .qualifications {
     list-style: none;
+    padding-left: 0.5em;
 }
 
 .tech-stack-items {
